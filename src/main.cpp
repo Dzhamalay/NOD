@@ -4,7 +4,6 @@
 
 int main()
 {
-    NOD nod;
-    NOD_B nod_b(nod);
+    NOD_B nod_b;
     std::cout << nod_b.useNOD(30, 18) << std::endl;
 }

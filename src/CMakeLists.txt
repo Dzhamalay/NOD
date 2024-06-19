@@ -1,5 +1,5 @@
-add_library(NOD NOD.cpp)
 add_library(NOD_B NOD_B.cpp)
+add_library(NOD NOD.cpp)
 set_target_properties(NOD PROPERTIES LINKER_LANGUAGE CXX)
 set_target_properties(NOD_B PROPERTIES LINKER_LANGUAGE CXX)
 target_include_directories(NOD PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
